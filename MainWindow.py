@@ -23,6 +23,7 @@ class MainWindow(QMainWindow):
         self.tab.addTab(self.trajectory, "Trajectory")
         self.setCentralWidget(self.tab)
         self.showMaximized()
+        self.close()
 
 
 if __name__=="__main__":
