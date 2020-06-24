@@ -18,6 +18,7 @@ class MainController(MainWindow):
         :return:
         '''
         self.online.close()
+        self.close()
 
 
 if __name__=="__main__":
